@@ -1,0 +1,344 @@
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(http://fonts.googleapis.com/css?family=Alef:400,700);
+
+html {
+  height: 98%;
+}
+
+body {
+  font-family: 'Alef', sans-serif;
+  font-weight: 400;
+  height: 98%;
+  background-color: #87ADB8;
+}
+
+#contenu {
+  width: 96%;
+  height: 100%;
+  min-height: 570px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(207, 21, 25);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#contenu:hover {
+  -webkit-box-shadow: 1px 1px 5px 5px #FFFFFD;
+  box-shadow: 1px 1px 5px 5px #FFFFFD;
+}
+
+#contenu h2 {
+  font-weight: 700;
+  font-size: 1.1em;
+  margin-left: 15px;
+}
+
+#contenu input {
+  margin-left: 15px;
+  border-radius: 4px;
+}
+
+#contenu p {
+  text-align: justify;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 0.8em;
+}
+
+#titre {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+
+#titre h1 {
+  color: #FFFFFD;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2em;
+  -webkit-margin-before: 0.33em;
+  -webkit-margin-after: 0.33em;
+  text-shadow: 2px 2px 2px #57B7DF;
+}
+
+#regles {
+  width: 48.5%;
+  height: 250px;
+  background-color: rgb(222, 223, 37);
+  color: #110;
+  float: left;
+  margin-left: 1%;
+  margin-right: 0.5%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#regles:hover {
+  -webkit-box-shadow: 1px 1px 5px 5px #57B7DF;
+  box-shadow: 1px 1px 5px 5px #57B7DF;
+}
+
+#connexion {
+  width: 48.5%;
+  height: 250px;
+  background-color: rgb(222, 223, 37);
+  color: #110;
+  float: left;
+  margin-left: 0.5%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#connexion:hover {
+  -webkit-box-shadow: 1px 1px 5px 5px #57B7DF;
+  box-shadow: 1px 1px 5px 5px #57B7DF;
+}
+
+#scores {
+  width: 48.5%;
+  height: 250px;
+  background-color: rgb(222, 223, 37);
+  color: #110;
+  float: left;
+  margin-left: 1%;
+  margin-right: 0.5%;
+  border-radius: 5px;
+
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#scores:hover {
+  -webkit-box-shadow: 1px 1px 5px 5px #57B7DF;
+  box-shadow: 1px 1px 5px 5px #57B7DF;
+}
+
+#inscription {
+  width: 48.5%;
+  height: 250px;
+  background-color: rgb(222, 223, 37);
+  color: #110;
+  float: left;
+  margin-left: 0.5%;
+  margin-right: 1%;
+  border-radius: 5px;
+
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#inscription:hover {
+  -webkit-box-shadow: 1px 1px 5px 5px #57B7DF;
+  box-shadow: 1px 1px 5px 5px #57B7DF;
+}
+
+.boutonRouge {
+  -webkit-box-shadow: inset 0px 1px 0px 0px #cf866c;
+  box-shadow: inset 0px 1px 0px 0px #cf866c;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #bc3315));
+
+  background: -webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background: -moz-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background: -o-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background: -ms-linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background: linear-gradient(top, #d0451b 5%, #bc3315 100%);
+  background-color: #d0451b;
+  border-radius: 3px;
+  border: 1px solid #942911;
+  display: inline-block;
+  color: #ffffff;
+  font-family: arial;
+  font-size: 13px;
+  font-weight: normal;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #854629;
+}
+
+.boutonRouge:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bc3315), color-stop(1, #d0451b));
+
+  background: -webkit-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background: -moz-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background: -o-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background: -ms-linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background: linear-gradient(top, #bc3315 5%, #d0451b 100%);
+  background-color: #bc3315;
+  cursor: pointer;
+}
+
+.menuDeroulant {
+  height: 30px;
+  overflow: hidden;
+  border: 1px solid #87ADB8;
+  background-color: #87ADB8;
+}
+
+.boutonRouge:active {
+  position: relative;
+  top: 1px;
+}
+
+#boutonJouer
+{
+  width: 400px;
+  height: 200px;
+  background-color: #DD0000;
+  margin: 0px auto 0px auto;
+  text-align: center;
+  
+  border-radius: 200px / 100px; 
+  
+  box-shadow: 
+  0px -15px 15px #950A0C inset,
+  10px -15px 15px #3E1417 inset,
+  -10px -15px 15px #fff inset,
+  -0px 15px #950A0C,
+  -35px 40px 5px rgba(0,0,0,0.5);
+  
+  transition: 
+  box-shadow .25s linear,
+  margin-top .25s linear;
+  
+  color: #950A0C;
+  font-size: 100px;
+}
+
+#boutonJouer:hover
+{
+  box-shadow: 
+  0px -15px 15px #950A0C inset,
+  10px -15px 15px #fff inset,
+  -10px -15px 15px #3E1417 inset,
+  -0px 2px #950A0C,
+  -7px 12px 5px rgba(0,0,0,0.5);
+  margin-top: 15px;
+  background-color: #FF0000;
+}
+#boutonJouer a {
+  text-decoration:none;
+  color:inherit;
+}
+
+#texteBouton
+{
+  padding-top: 0px;
+  line-height: 160px;
+  text-shadow: 3px -3px 1px #3E1417, -3px 3px 1px #FFC823;
+  transform: scale(1,0.5);
+}
+
+#contenuJeu {
+  width: 96%;
+  height: 100%;
+  min-height: 570px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(207, 21, 25);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+#contenuJeu:hover {
+  -webkit-box-shadow: 1px 1px 5px 5px #FFFFFD;
+  box-shadow: 1px 1px 5px 5px #FFFFFD;
+}
+
+#plateauJeu {
+  width: 80%;
+  height: 95%;
+  min-height: 500px;
+  background-color: rgb(222, 223, 37);
+  color: #110;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+#plateauJeu:hover {
+  -webkit-box-shadow: 1px 1px 5px 5px #57B7DF;
+  box-shadow: 1px 1px 5px 5px #57B7DF;
+}
+
+#plateauJeu #proposition {
+  text-align: center;
+}
+#plateauJeu #memento {
+  text-align: center;
+}
+#plateauJeu #boutons {
+  text-align: right;
+  margin-right: 10px;
+}
+#plateauJeu #score {
+  text-align: right;
+  margin-right: 10px;
+  float: right;
+}
+#plateauJeu #explications {
+  margin-top: -160px;
+  width: 225px;
+  float: left;
+  margin-left: 10px;
+  text-align: justify;
+  font-size: 14px;
+}
+#coups {
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+#coups img {
+  /*margin-top: -4px;*/
+}
+#coupsA {
+  float: left;
+}
+#coupsB {
+  float: right;
+}
+
+#contenuProfil{
+
+}
+
+#plateauProfil {
+  width: 80%;
+  height: 200px;
+  background-color: rgb(222, 223, 37);
+  color: #110;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+#plateauProfil:hover {
+  -webkit-box-shadow: 1px 1px 5px 5px #57B7DF;
+  box-shadow: 1px 1px 5px 5px #57B7DF;
+}
